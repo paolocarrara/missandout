@@ -1,5 +1,5 @@
 missandout: main.c
-	gcc $< -o $@ -lpthread
+	gcc -g -Wall $< -o$@ -lpthread
 
 clean:
 	rm missandout

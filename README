@@ -1,0 +1,11 @@
+Relatório
+
+O programa não está rodando corretamente, tudo funcionava tranquilamente até que inserimos a primeira barreira, não conseguimos achar o motivo, mas parece que após a primeira thread alcançar a barreira, as outras, que ainda nem haviam sido criadas, não chegavam a executar, ou seja, a primeira thread que chegou na barreira ficava esperando pelas outras threads que nem sequer eram criadas.
+
+Não conseguimos resolver o problema acima mencionado.
+
+O programa está quase que todos implementado, mesmo que não executando correntamente, implementamos tudo que achamos que fazia parte dos requerimentos do EP. No entanto, faltou criar a função que imprime a classificação final quando a corrida acaba e faltou implementar o sorteio de quebra de bicicleta de ciclistas.
+
+No mais, o ep está feito!
+
+OBS.: espera-se que apenas com os comentários no código, seja possível ter uma boa compreensão da organização do código.
